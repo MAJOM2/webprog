@@ -1,0 +1,65 @@
+/* Alap stílusok */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222020;  /* Fekete háttér */
+    color: #fff;  /* Fehér szöveg */
+}
+
+/* Fejléc */
+header {
+    background-color: #4e0303;  /* Piros szín */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+header .logo h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+header .subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Tartalom */
+.content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.intro, .history, .winners {
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e60000;  /* Piros szín a címeknek */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;  /* Világosszürke szöveg */
+}
+
+/* Footer */
+footer {
+    background-color: #4e0303;  /* Piros szín */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
